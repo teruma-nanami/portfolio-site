@@ -1,7 +1,7 @@
 name: "✅ タスク"
 description: 調査・ドキュメント整備・環境構築など、コード変更を伴わない作業
 title: "chore: "
-labels: ["task"]
+labels: ["chore"]
 body:
   - type: textarea
     id: content
