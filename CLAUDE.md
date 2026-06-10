@@ -86,10 +86,16 @@ portfolio/
 │   ├── architecture/
 │   ├── decisions/
 │   └── development/
-└── app/ config/ database/ resources/ routes/ tests/ など
+└── src/
+    ├── artisan
+    ├── composer.json
+    ├── package.json
+    └── app/ config/ database/ resources/ routes/ tests/ など（Laravel本体）
 ```
 
 存在しない`docs/`配下のディレクトリは、対応するドキュメントを初めて作成するときに追加する。将来利用だけを理由に空ディレクトリを増やさない。
+
+Laravelアプリ本体は`src/`配下に配置する。`composer`・`npm`・Sail関連のコマンドは`src/`をカレントディレクトリとして実行する（`Makefile`参照）。
 
 ## Rules
 
@@ -145,3 +151,4 @@ portfolio/
 - 現在必要な最小限のコードだけを実装する。
 - 既存コードと既存設計のパターンを優先する。
 - 範囲外の問題は勝手に修正せず、人間へ報告する。
+- いかなる長文の出力や複雑な処理の報告であっても、必ず日本語で出力すること。
