@@ -86,10 +86,16 @@ portfolio/
 │   ├── architecture/
 │   ├── decisions/
 │   └── development/
-└── app/ config/ database/ resources/ routes/ tests/ など
+└── src/
+    ├── artisan
+    ├── composer.json
+    ├── package.json
+    └── app/ config/ database/ resources/ routes/ tests/ など（Laravel本体）
 ```
 
 存在しない`docs/`配下のディレクトリは、対応するドキュメントを初めて作成するときに追加する。将来利用だけを理由に空ディレクトリを増やさない。
+
+Laravelアプリ本体は`src/`配下に配置する。`composer`・`npm`・Sail関連のコマンドは`src/`をカレントディレクトリとして実行する（`Makefile`参照）。
 
 ## Rules
 
