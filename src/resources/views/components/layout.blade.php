@@ -30,6 +30,11 @@
                             開発プロセス
                         </a>
                     </li>
+                    <li>
+                        <a href="{{ route('contact') }}" class="font-medium text-gray-600 hover:text-indigo-600">
+                            お問い合わせ
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </header>
