@@ -20,6 +20,11 @@
                             プロフィール
                         </a>
                     </li>
+                    <li>
+                        <a href="{{ route('works') }}" class="font-medium text-gray-600 hover:text-indigo-600">
+                            制作実績
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </header>
