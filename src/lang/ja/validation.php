@@ -2,14 +2,14 @@
 
 return [
 
-    'required' => ':attribute を入力してください。',
+    'required' => ':attributeを入力してください。',
 
-    'string' => ':attribute は文字列で入力してください。',
+    'string' => ':attributeは文字列で入力してください。',
 
-    'email' => ':attribute には、有効なメールアドレスを入力してください。',
+    'email' => ':attributeには、有効なメールアドレスを入力してください。',
 
     'max' => [
-        'string' => ':attribute は :max 文字以下で入力してください。',
+        'string' => ':attributeは:max文字以下で入力してください。',
     ],
 
 ];
