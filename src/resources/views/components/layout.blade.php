@@ -5,14 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>奈波照磨ポートフォリオ</title>
-
+      
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="min-h-screen bg-gray-50 text-gray-900">
         <header class="bg-white shadow-sm">
             <nav class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
                 <a href="{{ route('profile') }}" class="text-lg font-bold text-indigo-600">
-                    奈波照磨ポートフォリオ
+                    奈波輝磨ポートフォリオ
                 </a>
                 <ul class="flex gap-4 text-sm">
                     <li>
