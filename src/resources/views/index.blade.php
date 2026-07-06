@@ -260,14 +260,4 @@
         </div>
     </section>
 
-    <!-- 職務経歴書のダウンロード（関係ない過去の経歴はPDFに格納） -->
-    <section class="mt-16 bg-gray-50 rounded-xl p-5 border border-gray-200 text-center">
-        <p class="text-base text-gray-600">
-            エンジニアに関係のない過去の経歴を含む、詳細な職務経歴書（PDF）はこちらからご確認いただけます。
-        </p>
-        <a href="/files/job-history.pdf" download class="mt-5 inline-block rounded-md bg-gray-800 px-4 py-2 text-base font-medium text-white hover:bg-gray-700 transition">
-            職務経歴書(PDF)をダウンロード
-        </a>
-    </section>
-
 </x-layout>
