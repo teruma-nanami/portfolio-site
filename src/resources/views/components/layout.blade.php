@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>奈波照磨ポートフォリオ</title>
+        <title>奈波輝磨ポートフォリオ</title>
         <link rel="icon" type="image/png" href="{{ asset('favicon.png') }}">
 
         @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -43,7 +43,7 @@
 
         <footer class="bg-purple-900">
             <div class="mx-auto max-w-6xl px-4 py-6 text-center text-sm text-white sm:px-6 lg:px-8">
-                &copy; {{ date('Y') }} 奈波照磨ポートフォリオ
+                &copy; {{ date('Y') }} 奈波輝磨ポートフォリオ
             </div>
         </footer>
     </body>
