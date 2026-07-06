@@ -81,7 +81,7 @@
                 また、フロントとバックの表記規則のズレ（キャメル/スネークケース）をチーム内でいち早く検知・指摘し、将来的な手戻りやバグを未然に防ぐ行動を徹底。PMから視座の高さと正確な意思疎通能力を高く評価されました。
             </p>
             <p class="mt-4 text-sm text-indigo-600 font-semibold">
-                ※具体的なAIの使いこなし方や、課題ベースの進行は「<a href="/development-process" class="underline hover:text-indigo-800">開発プロセス</a>」のページに集約しています。
+                ※具体的なAIの使いこなし方や、課題ベースの進行は「<a href="{{ route('process') }}" class="underline hover:text-indigo-800">開発プロセス</a>」のページに集約しています。
             </p>
         </div>
     </section>
@@ -135,7 +135,7 @@
                 </div>
                 <div class="mt-6 flex gap-4 text-sm">
                     <a href="https://github.com/teruma-nanami/portfolio-site" target="_blank" rel="noopener noreferrer" class="font-medium text-indigo-600 hover:underline">GitHubでコードを見る</a>
-                    <a href="/development-process" class="font-medium text-indigo-600 hover:underline">開発プロセス詳細</a>
+                    <a href="{{ route('process') }}" class="font-medium text-indigo-600 hover:underline">開発プロセス詳細</a>
                 </div>
             </div>
 
