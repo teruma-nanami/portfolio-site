@@ -150,7 +150,21 @@
                         WordPressを用いたWebメディアの構築・運用。既存テーマに依存せず、<strong>生のPHPを用いて独自のショートコード（拡張機能）を自作・実装</strong>。サーバー構築からコードによる機能拡張までを一貫して管理。
                     </p>
                 </div>
-                <span class="mt-6 text-sm text-gray-400 italic">※個人検証用（ゲームメディア）環境として運用</span>
+                <div class="mt-6 space-y-3 text-sm">
+                    <div>
+                        <a href="https://dimension-girl.com/" target="_blank" rel="noopener noreferrer" class="break-all font-medium text-indigo-600 hover:underline">https://dimension-girl.com/</a>
+                        <p class="mt-0.5 text-gray-500">スマホゲーム「超次元彼女」の攻略サイト</p>
+                    </div>
+                    <div>
+                        <a href="https://yu-gi-ou.dimension-girl.com/" target="_blank" rel="noopener noreferrer" class="break-all font-medium text-indigo-600 hover:underline">https://yu-gi-ou.dimension-girl.com/</a>
+                        <p class="mt-0.5 text-gray-500">遊戯王の過去に発売されたゲームの攻略サイト</p>
+                    </div>
+                    <div>
+                        <a href="https://subsc.nanami-teruma.com/" target="_blank" rel="noopener noreferrer" class="break-all font-medium text-indigo-600 hover:underline">https://subsc.nanami-teruma.com/</a>
+                        <p class="mt-0.5 text-gray-500">様々なサブスクサービスを紹介するサイト</p>
+                    </div>
+                </div>
+                <span class="mt-2 text-sm text-gray-400 italic">※個人検証用（ゲームメディア）環境として運用</span>
             </div>
 
             <!-- 3. rese -->
@@ -165,6 +179,11 @@
                     <p class="mt-4 text-gray-600 leading-relaxed">
                         店舗予約やユーザー管理、通知機能などを網羅した本格的な飲食店管理アプリケーション。
                     </p>
+                </div>
+                <div class="mt-6 rounded-lg bg-gray-50 p-3 text-sm text-gray-700">
+                    <p class="font-semibold text-gray-900">確認用ログイン情報</p>
+                    <p class="mt-1">ログインID：admin@example.com</p>
+                    <p>パスワード：password</p>
                 </div>
             </div>
 
@@ -181,6 +200,11 @@
                         商品出品、購入、ユーザー間の簡易的なやり取りを想定した、決済・出品ロジックを含むフリマアプリケーション。
                     </p>
                 </div>
+                <div class="mt-6 rounded-lg bg-gray-50 p-3 text-sm text-gray-700">
+                    <p class="font-semibold text-gray-900">確認用ログイン情報</p>
+                    <p class="mt-1">ログインID：admin@example.com</p>
+                    <p>パスワード：password</p>
+                </div>
             </div>
 
             <!-- 5. Atte -->
@@ -195,6 +219,11 @@
                     <p class="mt-4 text-gray-600 leading-relaxed">
                         出勤・退勤・休憩開始・休憩終了などの打刻ロジック、およびユーザーごとの月次集計に対応した勤怠管理システム。
                     </p>
+                </div>
+                <div class="mt-6 rounded-lg bg-gray-50 p-3 text-sm text-gray-700">
+                    <p class="font-semibold text-gray-900">確認用ログイン情報</p>
+                    <p class="mt-1">ログインID：yoshimoto.manabu@example.com</p>
+                    <p>パスワード：password</p>
                 </div>
             </div>
 
