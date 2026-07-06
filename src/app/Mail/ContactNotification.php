@@ -16,8 +16,7 @@ class ContactNotification extends Mailable
         public string $name,
         public string $email,
         public string $message,
-    ) {
-    }
+    ) {}
 
     public function envelope(): Envelope
     {

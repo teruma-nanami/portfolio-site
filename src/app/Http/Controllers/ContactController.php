@@ -10,8 +10,7 @@ class ContactController extends Controller
 {
     public function __construct(
         private SendContactInquiryUseCaseInterface $sendContactInquiryUseCase,
-    ) {
-    }
+    ) {}
 
     public function store(ContactRequest $request): RedirectResponse
     {
