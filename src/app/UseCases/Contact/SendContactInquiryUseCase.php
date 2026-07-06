@@ -9,11 +9,10 @@ class SendContactInquiryUseCase implements SendContactInquiryUseCaseInterface
 {
     public function __construct(
         private SendContactNotificationActionInterface $sendContactNotificationAction,
-    ) {
-    }
+    ) {}
 
     /**
-     * @param array<string, string> $data
+     * @param  array<string, string>  $data
      */
     public function execute(array $data): void
     {
